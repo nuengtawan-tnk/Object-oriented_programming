@@ -1,7 +1,8 @@
-print("hello python")
-print("หนึ่งตะวัน แสนสูงเนิน")
-print("ก้า")
-print("อายุ 19ปี")
-print("เลขที่ 19")
-print("รหัสปจตนศๅ:67319010040")
-print("ชอบนอน")
+print("grade program")
+score = int(input("กรอก:"))
+if score < 0 or score > 100:
+    print("fxck")
+elif score >= 80:
+    print("4")    
+
+
